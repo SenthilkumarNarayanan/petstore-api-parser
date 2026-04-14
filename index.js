@@ -10,7 +10,7 @@ async function getEndpoints() {
     console.log("Available Endpoints:\n");
 
     Object.keys(paths).forEach(path => {
-      console.log(path);
+      console.log("version 1.2", path);
     });
 
   } catch (error) {
